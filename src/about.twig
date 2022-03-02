@@ -1,0 +1,21 @@
+{% extends "./abstracts/layout.twig" %}
+{% import "./shared/button/button.twig" as button %}
+{% import "./shared/textBox/textBox.twig" as textbox %}
+
+{% block header %}
+  Day la about
+
+{% endblock %}
+
+{% block body %}
+
+
+  <h1>Hello world</h1>
+  {% include "./containers/home/featureSection.twig" %}
+
+  {{ textbox.render({ title: 'Hello world',text: 'aaaaa'})}}
+  {{ textbox.render({ title: 'Hello world',text: 'aaaaa'})}}
+  {{ textbox.render({ title: 'Hello world',text: 'aaaaa'})}}
+
+
+{% endblock %}

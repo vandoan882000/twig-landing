@@ -1,0 +1,55 @@
+{
+  "heading": {
+    "title": "Popular posts",
+    "description": "There are many things that are important to catalog design. Your images must be <br/>sharp and appealing"
+  },
+  "content":
+    [
+      {
+        "srcImg": "../../img/post1.png",
+        "title": "Sunt autem nusquam hoc epicurus in…",
+        "text": "November 9, 2019 • 03 Comments"
+      },
+      {
+        "srcImg": "../../img/post2.png",
+        "title": "Sunt autem nusquam hoc epicurus in…",
+        "text": "November 9, 2019 • 03 Comments"
+      },
+      {
+        "srcImg": "../../img/post3.png",
+        "title": "Sunt autem nusquam hoc epicurus in…",
+        "text": "November 9, 2019 • 03 Comments"
+      },
+      {
+        "srcImg": "../../img/post4.png",
+        "title": "Sunt autem nusquam hoc epicurus in…",
+        "text": "November 9, 2019 • 03 Comments"
+      },
+      {
+        "srcImg": "../../img/post5.png",
+        "title": "Sunt autem nusquam hoc epicurus in…",
+        "text": "November 9, 2019 • 03 Comments"
+      },
+      {
+        "srcImg": "../../img/post6.png",
+        "title": "Sunt autem nusquam hoc epicurus in…",
+        "text": "November 9, 2019 • 03 Comments"
+      },
+      {
+        "srcImg": "../../img/post7.png",
+        "title": "Sunt autem nusquam hoc epicurus in…",
+        "text": "November 9, 2019 • 03 Comments"
+      },
+      {
+        "srcImg": "../../img/post8.png",
+        "title": "Sunt autem nusquam hoc epicurus in…",
+        "text": "November 9, 2019 • 03 Comments"
+      },
+      {
+        "srcImg": "../../img/post9.png",
+        "title": "Sunt autem nusquam hoc epicurus in…",
+        "text": "November 9, 2019 • 03 Comments"
+      }
+    ]
+
+}

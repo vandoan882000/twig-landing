@@ -1,0 +1,24 @@
+{% import "../../../shared/textBox/textBox.twig" as textBox %}
+{% import "../../../shared/textHead/textHead.twig" as textHead %}
+{% import "../../../shared/feature/feature.twig" as feature %}
+<section class="page-section" style="margin-top: 40px;">
+	<div
+		class="container">
+		<!-- Text head -->
+		<div class="text-head col-lg-12">
+			{{textHead.render(featureSection.heading)}}
+		</div>
+		<!-- End / Text head -->
+		<div class="row">
+			{% for item in featureSection.content %}
+				<div class="col-xs-12 col-sm-6 col-lg-4">
+          <!-- Feature -->
+            {{feature.render(item)}}
+					<!-- End / Feature -->
+				</div>
+			{% endfor %}
+
+
+		</div>
+		<div class="page-section__bg--all" style="background-color: #fcf3ec"></div>
+	</section>

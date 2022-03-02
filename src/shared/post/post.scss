@@ -1,0 +1,58 @@
+.post {
+  width: 100%;
+  width: auto;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  box-shadow: 0 3px 9px rgb(0 0 0 / 15%);
+  cursor: pointer;
+  margin: 15px 0px 15px 0px;
+}
+.post__image {
+  width: 100%;
+}
+.post__title {
+  width: 100%;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 15px;
+  font-weight: 600;
+  opacity: 0.8;
+
+}
+.post__date {
+  font-size: 12px;
+  color: #7E7FA0;
+  margin-left: 13px;
+  opacity: 0.8;
+}
+
+.post__design {
+  position: relative;
+  bottom: 23px;
+}
+
+.post__square {
+  width: 75px;
+  height: 26px;
+  background-color: #5E68F9;
+  position: absolute;
+  text-align: center;
+  color: #fff;
+  top: 0;
+
+}
+.post__square a {
+  color: #fff;
+}
+
+
+.post__triangle {
+  width: 12px;
+  height: 19px;
+  border-bottom: 19px solid #393F96;
+  border-right: 12px solid transparent;
+  position: absolute;
+  top: 0;
+  left: 75px;
+}

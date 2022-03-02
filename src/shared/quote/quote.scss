@@ -1,0 +1,77 @@
+.quote{
+  padding-top: 55px;
+  padding-left: 27px;
+  &__description {
+      color: #7E7FA0;
+      margin-bottom: 36px;
+  }
+  &__author {
+      color: #2E2A41;
+      font-size: 14px;
+      font-weight: 800;
+  }
+  &__circle {
+      position: relative;
+      width: 90px;
+      height: 90px;
+      border-radius: 45px;
+      background-color: #FDF1E7;
+      margin-bottom: 20px;
+  }
+  &__square {
+      width: 86px;
+      height: 62px;
+      position: absolute;
+      top: 20px;
+      left: 45px;
+  }
+  &__dots {
+    color: #ccc;
+    margin-right: 15px;
+    font-size: 10px;
+    cursor: pointer;
+  }
+
+  &__dots--selected {
+      font-size: 14px;
+      color: #5E68F9;
+      margin-right: 15px;
+      cursor: pointer;
+  }
+}
+.quote__square [class^="fa-"] {
+  font-size: 60px;
+  color: #5E68F9;
+}
+.fa-quote-right {
+  font-size: 60px;
+  color: #5E68F9;
+}
+.fa-quote-left {
+  font-size: 60px;
+  color: #5E68F9;
+}
+.fa-angle-double-right {
+  font-size: 60px;
+  color: #5E68F9;
+}
+.quote__tab {
+  display: flex;
+  padding: 57px 0px 20px 0px;
+  align-items: center;
+  margin-left: 30px;
+}
+hr {
+  float:left;
+  margin-top: 10px;
+  margin-right: 5px;
+  color: rgb(184, 178, 178);
+  background-color: rgb(184, 178, 178);
+  opacity: 0.5;
+  width: 15px;
+}
+.image-background {
+  position: relative;
+  margin-top: 30px;
+  box-shadow: 0 36px 33px rgb(0 0 0 / 13%);
+}

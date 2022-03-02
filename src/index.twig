@@ -1,0 +1,28 @@
+{% extends "./abstracts/layout.twig" %}
+{% import "./shared/button/button.twig" as button %}
+{% import "./shared/menu/menu.twig" as menu %}
+{% import "./shared/textBox/textBox.twig" as textbox %}
+{% import "./shared/quote/quote.twig" as quote %}
+
+{% block header %}
+	<header class="page-header">
+		<div class="container page-header__container">
+			<div class="row">
+				<div class="col-lg-1" style="cursor: pointer">
+					<img src="./img/logo.png" alt="Logo"/>
+				</div>
+				{{menu.render()}}
+			</div>
+		</div>
+	</div>
+{% endblock %}
+
+{% block body %}
+
+	{% include "./containers/home/textBoxSection/textBoxSection.twig" %}
+	{% include "./containers/home/quoteSection/quoteSection.twig" %}
+  {% include "./containers/home/featureSection/featureSection.twig" %}
+	{% include "./containers/home/postSection/postSection.twig" %}
+
+
+{% endblock %}

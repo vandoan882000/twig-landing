@@ -1,0 +1,46 @@
+{
+  "heading":{
+    "title":"Essential features for you",
+    "description":"There are many things that are important to catalog design. Your images must be sharp and appealing."
+  },
+  "content":
+    [
+      {
+        "id": "1",
+        "icon": "far fa-heart ",
+        "title": "Favorite PostsTitle",
+        "description": "It's a useful feature for your customers: They can SAVE an useful article and easily reach it in future under Favorite Store."
+      },
+      {
+        "id": "2",
+        "icon": "fas fa-history",
+        "title": "Recently Viewed",
+        "description": "Every time visits an article, HSBlog will remember it. Customers can easily reach it next time under Recently Reviewed area."
+      },
+      {
+        "id": "3",
+        "icon": "far fa-clipboard",
+        "title": "Awesome Mega Menu",
+        "description": "A useful feature helps you can add more information to your menu but still keep it simple and clean"
+      },
+      {
+        "id": "4",
+        "icon": "fas fa-cogs",
+        "title": "Theme Options",
+        "description": "Here you can customize Header Style, Footer Style, Heading Tags's Font, Social Networks, MailChimp, Youtube and much more ...."
+      },
+      {
+        "id": "5",
+        "icon": "far fa-thumbs-up",
+        "title": "Social Login",
+        "description": "In addition Default WordPress Login, Customer can easily signin / signup to your site with their Facebook and Apple."
+      },
+      {
+        "id": "6",
+        "icon": "far fa-check-circle",
+        "title": "Google reCaptcha V3",
+        "description": "Protects your site website forms from spam entries while letting real people pass through with ease"
+      }
+    ]
+}
+

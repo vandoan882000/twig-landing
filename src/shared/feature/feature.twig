@@ -1,0 +1,11 @@
+{% macro render(content) %}
+	<div class="feature">
+		<div class="feature__circle--{{content.id}}">
+			<i class="{{content.icon}}"></i>
+		</div>
+		<h4 class="feature__title">{{content.title}}</h4>
+		<p class="feature__description">
+			{{content.description}}
+		</p>
+	</div>
+{% endmacro %}

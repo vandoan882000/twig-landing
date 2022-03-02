@@ -1,0 +1,40 @@
+{% import "../../../shared/quote/quote.twig" as quote %}
+<section class="page-section">
+		<div class="container">
+			<div
+				class="row mb-50">
+				<!-- Text head -->
+				<div class="text-head col-lg-12">
+					<div class="text-head__title--1" >
+						<h3>
+              {# {{quoteSection.heading.title}} #}
+							Trusted by over
+							<a style="font-weight: 900; color: #5e68f9">1000</a>
+							users
+						</h3>
+					</div>
+					<div class="text-head__description">
+						{{quoteSection.heading.description}}
+						<br/>
+						must be sharp and appealing.
+					</div>
+				</div>
+				<!-- End / Text head -->
+			</div>
+
+			<div class="row mt-50 mb-20">
+				<div class="col-lg-6">
+					<img class="image-background" src="./img/slider.png" style="width: 95%" alt="Slider"/>
+				</div>
+
+				<div
+					class="col-lg-6 mt-20 pl-15">
+					<!-- Quote -->
+					{{ quote.render() }}
+
+					<!-- End / Quote -->
+				</div>
+			</div>
+		</div>
+		<div class="page-section__bg--left"></div>
+	</section>

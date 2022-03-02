@@ -1,0 +1,13 @@
+{% macro render(content) %}
+	<div class="post">
+		<img class="post__image" src= {{ content.srcImg}} alt="Post 1"/>
+		<div class="post__design">
+			<div class="post__square">
+				<a href="#">Design</a>
+			</div>
+			<div class="post__triangle"></div>
+		</div>
+		<p class="post__title">{{content.title}}</p>
+		<p class="post__date">{{content.text}}</p>
+	</div>
+{% endmacro %}

@@ -1,0 +1,27 @@
+{
+  "content":
+  [
+    {
+      "id": "1",
+      "title": "WP + Ios + Android",
+      "description": "Based on ReactJS and React Native, HsBlog not only is a WP theme, but also let you to build your iOS + Android App Native App"
+    },
+    {
+      "id": "2",
+      "title": "Single page application",
+      "description": "SPA improves your Customer Experience. When navigating from a page to another page, HsBlog WILL NOT REFRESH Browser like other themes."
+    },
+    {
+      "id": "3",
+      "title": "Drag & Drop Page Builder",
+      "description": "We have created our own Page Builder for HsBlog. It allows you to build either Web Page or App Home page."
+    },
+    {
+      "id": "4",
+      "title": "Elite Support",
+      "description": "help.highspeedblog.com is our Help Center where you can find useful information on Documentation page and You can ask for us anything there."
+    }
+  ]
+
+
+}
