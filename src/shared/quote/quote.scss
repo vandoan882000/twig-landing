@@ -7,7 +7,6 @@
   }
   &__author {
       color: #2E2A41;
-      font-size: 14px;
       font-weight: 800;
   }
   &__circle {
@@ -74,4 +73,9 @@ hr {
   position: relative;
   margin-top: 30px;
   box-shadow: 0 36px 33px rgb(0 0 0 / 13%);
+}
+@media (max-width: 992px) {
+  .quote{
+    padding-top: 135px;
+  }
 }
