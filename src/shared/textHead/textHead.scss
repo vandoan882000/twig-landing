@@ -2,13 +2,11 @@
   position: relative;
   margin-bottom: 30px;
   &__title--1 {
-    color: #252222;
     margin: 60px 0px 25px 0px;
     text-align: center;
     font-size: 25.5px;
   }
   &__title--2 {
-      color: #252222;
       margin: 60px 0px 25px 0px;
       text-align: center;
       font-size: 25px;
@@ -16,7 +14,6 @@
   }
 
   &__description {
-      color: #7E7FA0;
       text-align: center;
       margin-bottom: 10px;
   }
@@ -24,7 +21,6 @@
 
 @supports (font-variation-settings: "wght" 800) {
   .text-head__title--1 {
-      color: #252222;
       margin: 60px 0px 25px 0px;
       text-align: center;
       font-size: 25.5px;
