@@ -2,10 +2,16 @@
   box-sizing: border-box;
 }
 body {
+  color: #7E7FA0;
   font-family: 'Poppins', sans-serif;
   font-size: 14px;
   line-height: 1.45;
   font-weight: 400;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+h1,h2,h3,h4,h5 {
+  color:#252222;
 }
 img {
   max-width: 100%;

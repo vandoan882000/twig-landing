@@ -1,15 +1,11 @@
 .text-box {
   position: relative;
   &__title {
-      color: #2E2A41;
       font-size: 16px;
       margin : 0px 0px 25px 0px;
       padding: 15px 0px 0px 0px;
   }
 
-  &__description {
-      color: #7E7FA0;
-  }
 }
 
 [class^="text-box__circle--"] {
