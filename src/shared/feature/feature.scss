@@ -7,7 +7,11 @@
   text-align: left;
   cursor: pointer;
   margin: 15px 0px 15px 0px;
+  overflow: hidden;
+
+
 }
+
 [class*="feature__circle"] {
   display: flex;
   justify-content: center;
@@ -21,37 +25,31 @@
   background-color: #fff5f5;
   color: #FD9B9B;
   font-size: 30px;
-  font-weight: 900;
 }
 .feature__circle--2 {
   background-color: #f1e8f9;
   color: #B06BF1;
   font-size: 30px;
-  font-weight: 900;
 }
 .feature__circle--3 {
   background-color: #e9fbfd;
   color: #3ac5d4;
   font-size: 30px;
-  font-weight: 900;
 }
 .feature__circle--4 {
   background-color: #eaebff;
   color: #545CF0;
   font-size: 30px;
-  font-weight: 900;
 }
 .feature__circle--5 {
   background-color: #fbe7f1;
   color: #F16BAC;
   font-size: 30px;
-  font-weight: 900;
 }
 .feature__circle--6 {
   background-color: #dcfddf;
   color: #48DE57;
   font-size: 30px;
-  font-weight: 900;
 }
 [class^="far fa-"] {
   opacity: 1;

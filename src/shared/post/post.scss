@@ -6,6 +6,23 @@
   box-shadow: 0 3px 9px rgb(0 0 0 / 15%);
   cursor: pointer;
   margin: 15px 0px 15px 0px;
+  overflow: hidden;
+  &:hover .post__image {
+    transform: translateY(-20px);
+    transition: all 1s;
+  }
+  &:hover .post__design {
+    transform: translateY(-20px);
+    transition: all 1s;
+  }
+  &:hover .post__title {
+    transform: translateY(-20px);
+    transition: all 1s;
+  }
+  &:hover .post__date {
+    transform: translateY(-20px);
+    transition: all 1s;
+  }
 }
 .post__image {
   width: 100%;

@@ -15,6 +15,9 @@
 }
 .menu ul li a {
   cursor: pointer;
+  &:hover {
+    color: #616AE8;
+  }
 }
 
 @media (max-width: 1020px) {

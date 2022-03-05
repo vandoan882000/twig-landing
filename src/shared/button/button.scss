@@ -16,10 +16,19 @@
 .btn--primary {
   border: #616AE8;
   background-color: #616AE8;
+  &:hover {
+    background-color: #20E5A7;
+    transition: all 0.5s;
+  }
 }
+
 .btn--secondary {
   border: #20E5A7;
   background-color: #20E5A7;
+  &:hover {
+    background-color: #616AE8;
+    transition: all 0.5s;
+  }
 }
 
 
